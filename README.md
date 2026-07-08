@@ -50,10 +50,24 @@ ComputeSDK is a free and open-source toolkit for running other people's code in 
 
 ```bash
 # Install the core SDK
+npm install computesdk
 
-## Project Tags
+# Add your preferred provider
+npm install @computesdk/e2b        # For data science and Python
+npm install @computesdk/vercel     # For web-scale Node.js/Python  
+npm install @computesdk/daytona    # For development workspaces
 
-- `Full Stack`
+# Frontend integration (optional)
+npm install @computesdk/ui         # React hooks and utilities
+```
+
+Set your environment variables and you're ready to go:
+
+```bash
+export E2B_API_KEY=your_api_key
+# or VERCEL_TOKEN=your_token
+# or DAYTONA_API_KEY=your_key
+```
 
 ## Quick Start
 
@@ -617,3 +631,12 @@ MIT License - see the [LICENSE](LICENSE) file for details.
   <strong>Built with ❤️ by the ComputeSDK team</strong><br>
   <a href="https://computesdk.com">computesdk.com</a>
 </div>
+
+## Project Metadata
+
+| Field | Details |
+| --- | --- |
+| Repository | `ENZOMOTIVE/computesdk` |
+| Categories | `Full Stack` |
+| Primary stack | Next.js, React, Vite, Node.js, TypeScript, JavaScript, HTML, CSS |
+
