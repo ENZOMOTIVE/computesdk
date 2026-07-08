@@ -631,12 +631,3 @@ MIT License - see the [LICENSE](LICENSE) file for details.
   <strong>Built with ❤️ by the ComputeSDK team</strong><br>
   <a href="https://computesdk.com">computesdk.com</a>
 </div>
-
-## Project Metadata
-
-| Field | Details |
-| --- | --- |
-| Repository | `ENZOMOTIVE/computesdk` |
-| Categories | `Full Stack` |
-| Primary stack | Next.js, React, Vite, Node.js, TypeScript, JavaScript, HTML, CSS |
-
